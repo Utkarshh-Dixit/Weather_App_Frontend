@@ -18,7 +18,7 @@ function WeatherDisplay({ data, onClose }) {
   };
 
   return (
-    <div className="weather-display">
+    <div className="weather-display" id="sd">
        <button className="close-button" onClick={onClose}>❌</button>
       <h2>Current Weather</h2>
       <p><strong>Temperature:</strong> {convertTemperature(currentWeather.temperature)}</p>
