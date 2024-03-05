@@ -1,0 +1,39 @@
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .forecast-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forecast-item h3 {
+    margin-top: 0;
+  }
+  
+  .forecast-item p {
+    margin: 5px 0;
+  }
+  
+  .butcon {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    background-image: linear-gradient(to right, #4CAF50 0%, #2196F3 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butcon:hover {
+    background-color: #4CAF50;
+    background-image: linear-gradient(to right,  #2196F3, #4CAF50 100%);
+  }
